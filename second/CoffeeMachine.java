@@ -30,7 +30,7 @@ public class CoffeeMachine {
             }
             this.money += target.getPrice();
         } catch (NullPointerException e) {
-//            System.out.println("Товар не найден");
+
             throw new Exception("Товар не найден", e);
         }
 
